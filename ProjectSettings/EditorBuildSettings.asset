@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: 2858b3295c479419d994175e8749f9ef
+  - enabled: 1
+    path: Assets/Scenes/BikeMenu.unity
+    guid: 731c5de84c431448d8b814d558518e09
+  - enabled: 1
+    path: Assets/Scenes/MissionMenu.unity
+    guid: 632b1f9350923487cadeaa0ab532a2d9
+  - enabled: 1
+    path: Assets/Scenes/NewGame.unity
+    guid: d6f3e149552b740c78e00067b96b8e53
+  m_configObjects: {}

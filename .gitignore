@@ -1,0 +1,27 @@
+# Unity generated
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+UserSettings/
+MemoryCaptures/
+
+# IDE/editor
+.vs/
+.idea/
+.vscode/
+*.csproj
+*.slnx
+*.user
+*.pidb
+*.booproj
+
+# OS/files
+.DS_Store
+*.apk
+apks/
+
+# Local/private notes
+LOG.md

@@ -1,0 +1,19 @@
+flowchart TD
+  A["AutoBootstrap / SceneSetup"] --> B["GameManager"]
+  B --> C["ConfigLoader"]
+  B --> D["SaveSystem"]
+  B --> E["MissionSystem"]
+  B --> F["UpgradeSystem"]
+  B --> G["BikeSelectionSystem"]
+
+  B --> H["PlayerBikeController"]
+  B --> I["RoadSpawner"]
+  B --> J["VehicleSpawner"]
+
+  J --> K["TrafficVehicle"]
+  H --> L["CrashEffects"]
+  B --> M["CameraEffects"]
+
+  B --> N["UIController"]
+  N --> O["GarageUIController"]
+  O --> P["GaragePreview"]
