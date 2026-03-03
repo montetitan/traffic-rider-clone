@@ -173,7 +173,7 @@ namespace TrafficRider.UI
 
             CreateLabel(_buyCoinsPanel.transform, new Vector2(0, 70), "Buy Coins (Demo)", 20);
             CreateLabel(_buyCoinsPanel.transform, new Vector2(0, 30), "10000 coins - 100 rs", 16);
-            CreateLabel(_buyCoinsPanel.transform, new Vector2(0, 0), "Google Pay: montetitan@okicici", 14);
+            CreateLabel(_buyCoinsPanel.transform, new Vector2(0, 0), "Google Pay: montetitan@delululu", 14);
             CreateLabel(_buyCoinsPanel.transform, new Vector2(0, -30), "Placeholder only (no real payment)", 12);
 
             Button closeBtn = CreateButton(_buyCoinsPanel.transform, new Vector2(-70, -80), new Vector2(140, 32), "Back");
@@ -288,7 +288,7 @@ namespace TrafficRider.UI
             _donatePanel.name = "DonatePanel";
 
             CreateLabel(_donatePanel.transform, new Vector2(0, 70), "Donate (UPI)", 20);
-            CreateLabel(_donatePanel.transform, new Vector2(0, 30), "Google Pay: montetitan@okicici", 14);
+            CreateLabel(_donatePanel.transform, new Vector2(0, 30), "Google Pay: montetitan@delululu", 14);
             CreateLabel(_donatePanel.transform, new Vector2(0, 5), "Tap Pay Now to open Google Pay", 12);
 
             Button payBtn = CreateButton(_donatePanel.transform, new Vector2(-70, -80), new Vector2(140, 32), "Pay Now");
@@ -429,7 +429,7 @@ namespace TrafficRider.UI
         private void OpenDonateUpi()
         {
             // UPI deep link for Google Pay (android will route to a UPI-capable app)
-            string uri = "upi://pay?pa=montetitan@okicici&pn=TrafficRider%20Donate&cu=INR";
+            string uri = "upi://pay?pa=montetitan@delululu&pn=TrafficRider%20Donate&cu=INR";
             Application.OpenURL(uri);
         }
 
